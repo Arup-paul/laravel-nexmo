@@ -1,0 +1,45 @@
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .social-login {
+	font-size: 18px;
+	line-height: 25px;
+	left: 168px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .social-login {
+	line-height: 25px;
+	position: inherit;
+	margin: 0 35px;
+}
+.signup-form {
+	margin: 0 35px;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+     .social-login {
+	margin:0 20px;
+	position: inherit;
+}
+.signup-form {
+	margin: 0 35px;
+}
+.country-code {
+	width: 70px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .social-login {
+	left: 180px;;
+}
+
+
+}
